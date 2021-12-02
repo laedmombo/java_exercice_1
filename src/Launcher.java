@@ -17,6 +17,7 @@ public class Launcher {
                     System.out.println("La suite de Fibonacci d'ordre "+nbr+" vaut "+ Fib(nbr));
                     break;
                 }
+<<<<<<< HEAD
                 else if (entrer.equals("freq")){
                     System.out.println("Entrer le chemin du fichier à lire : ");
                     String path = scanner.nextLine();
@@ -38,6 +39,8 @@ public class Launcher {
                     }
                     break;
                 }
+=======
+>>>>>>> 3f5befb9fd40f50d8c7b7d781cfe795283ce9050
                 else{
                         System.out.println("Unknown command");
                 }
